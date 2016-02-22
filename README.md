@@ -97,18 +97,6 @@ example showing a diff from the current HEAD to 30 commits back:
 git difftool -x schdiff HEAD~30 project.sch
 ````
 
-Squashing the history after copying the template
-------------------------------------------------
 
-The history of this template project doesn't need to be part of the history a specific project that uses it
-To squash the history, you can rebase back to the first commit.
 
-````
-git rebase -i `git rev-list --max-parents=0 HEAD` 
-````
 
-Squash everything but the top, change the comments as you see fit. Read up on git rebase 
-
-````
-git rebase --help
-````
