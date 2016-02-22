@@ -98,5 +98,25 @@ git difftool -x schdiff HEAD~30 project.sch
 ````
 
 
+Importing images into gedaPCB
+-----------------------------
+Many folks use potrace and pstoedit to work with images and geda PCB
+
+eps images can be converted into pcb layouts with the pstoedit tool.
+Potrace can be used to convert bmp images to eps, or 'encapsulated postscript' format.
+
+Inkscape can be used to convert svg or ps content to the eps format.
+Note that paths should be 'smoothed' by adding control points, and text paths
+should be exported with a high DPI raster, which can be entered in the eps save as dialog.
+
+The pcbfill option is required for proper treatment of 'filled' polygons, like images of text 
+that you want to import.
+
+
+The following example converts a Noisebridge logo into a pcb layout that can be imported (File -> Load Layout to Buffer)
+into any layout you are working on.
+```
+pstoedit -f pcbfill Noisebridge_logo.eps Noisebridge_ButtonLogo.pcb
+```
 
 
