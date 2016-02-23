@@ -116,7 +116,5 @@ that you want to import.
 The following example converts a Noisebridge logo into a pcb layout that can be imported (File -> Load Layout to Buffer)
 into any layout you are working on.
 ```
-pstoedit -f pcbfill Noisebridge_logo.eps Noisebridge_ButtonLogo.pcb
+pstoedit -f pcbfill Noisebridge_logo.eps Noisebridge_ButtonLogo.pcb -ssp
 ```
-
-
