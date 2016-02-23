@@ -5,7 +5,7 @@ FileVersion[20091103]
 
 PCB["" 6000.00mil 5000.00mil]
 
-Grid[50.00mil 0.0000 0.0000 1]
+Grid[55.00mil 0.0000 0.0000 1]
 PolyArea[3100.006200]
 Thermal[0.500000]
 DRC[6.00mil 5.00mil 6.00mil 6.00mil 12.00mil 6.00mil]
@@ -786,21 +786,9 @@ Symbol['~' 12.00mil]
 	SymbolLine[20.00mil 35.00mil 25.00mil 30.00mil 8.00mil]
 )
 Attribute("PCB::grid::unit" "mil")
-Attribute("PCB::grid::size" "50.00mil")
+Attribute("PCB::grid::size" "55.00mil")
 
-Element["" "0402" "D1" "unknown" 78.5048mm 2805.00mil -0.7772mm 21.18mil 0 100 ""]
-(
-	Attribute("device" "LED")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
-	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
-
-	)
-
-Element["" "DIP8" "U2" "unknown" 1850.00mil 2500.00mil 170.00mil 50.00mil 3 100 ""]
+Element["" "DIP8" "U2" "unknown" 1800.00mil 2150.00mil 170.00mil 50.00mil 3 100 ""]
 (
 	Attribute("device" "ATtiny12")
 	Attribute("manufacturer" "unknown")
@@ -821,6 +809,17 @@ Element["" "DIP8" "U2" "unknown" 1850.00mil 2500.00mil 170.00mil 50.00mil 3 100 
 	ElementLine [-50.00mil -50.00mil 100.00mil -50.00mil 10.00mil]
 	ElementLine [200.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
 	ElementArc [150.00mil -50.00mil 50.00mil 50.00mil 0 180 10.00mil]
+
+	)
+
+Element["" "" "LED" "" 2915.00mil 2805.00mil 114.00mil 60.00mil 3 100 ""]
+(
+	Pin[0.0000 0.0000 70.00mil 30.00mil 60.00mil 28.00mil "" "1" "square"]
+	Pin[-100.00mil 0.0000 70.00mil 30.00mil 60.00mil 28.00mil "" "2" ""]
+	ElementLine [-135.00mil -73.00mil -135.00mil 72.00mil 10.00mil]
+	ElementLine [-125.00mil 81.00mil -135.00mil 71.00mil 10.00mil]
+	ElementLine [-125.00mil -83.00mil -134.00mil -74.00mil 10.00mil]
+	ElementArc [-43.00mil -1.00mil 116.00mil 116.00mil 45 270 10.00mil]
 
 	)
 Layer(1 "top" "copper")
