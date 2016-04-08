@@ -50,14 +50,14 @@ refdes=S?
 }
 N 58800 37300 58800 37800 4
 T 55800 32400 9 12 1 0 0 0 9
-1. replace LED1 with RGB LED
+1. replace LED1 with RGB LED     x
+2. wire up the parts in the schematic    x
 3. add switch footprint
 4. add programming pins to edge of the board
-2. wire up the parts in the schematic
 5. update the pcb layout
 6. get confirmation from others
 7. printouts  and check
-8 breadboard
+8. breadboard
 
 C 57400 38200 1 0 0 LED_RGB.sym
 {
