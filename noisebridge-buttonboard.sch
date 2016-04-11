@@ -48,7 +48,7 @@ footprint=0.125W_Carbon_Resistor
 C 55300 35500 1 0 0 switch-pb.sym
 {
 T 55800 35750 5 10 1 1 0 0 1
-refdes=S?
+refdes=S1
 T 55300 35500 5 10 0 0 0 0 1
 footprint=snaptron_GX06240_SS
 }
@@ -56,7 +56,7 @@ N 59100 37000 59100 37800 4
 T 55800 32400 9 12 1 0 0 0 9
 1. replace LED1 with RGB LED     x
 2. wire up the parts in the schematic    x
-3. add switch footprint
+3. add switch footprint x
 4. add programming pins to edge of the board
 5. update the pcb layout
 6. get confirmation from others
@@ -80,7 +80,7 @@ N 57900 39600 57900 39500 4
 C 61200 36400 1 0 1 CON_Atmel_AVRISP_6PIN-1.sym
 {
 T 60300 38400 5 10 1 1 0 0 1
-refdes=CONN?
+refdes=CONN1
 T 61200 40000 5 10 0 0 0 6 1
 device=Atmel AVRISP Connector
 T 61200 38600 5 10 0 0 0 6 1
