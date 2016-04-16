@@ -20,6 +20,8 @@ T 54900 38650 5 10 0 0 0 0 1
 device=ATtiny12
 T 54900 38850 5 10 0 0 0 0 1
 footprint=DIP8
+T 54900 39250 5 10 0 0 0 0 1
+net=Vdd:8
 }
 C 54000 38400 1 270 0 battery-1.sym
 {
