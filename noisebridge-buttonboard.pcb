@@ -787,7 +787,6 @@ Symbol['~' 12.00mil]
 )
 Attribute("PCB::grid::unit" "mil")
 Attribute("PCB::grid::size" "10.00mil")
-Via[1515.00mil 1697.20mil 51.97mil 30.00mil 0.0000 27.56mil "" ""]
 Via[365.00mil 27.3610mm 24.02mil 12.00mil 0.0000 12.01mil "" "hole"]
 
 Element["" "CONNECTOR 3 2" "CONN1" "unknown" 19.3258mm 15.7477mm -3.5778mm 5.5173mm 3 100 ""]
@@ -918,7 +917,7 @@ Element["" "RGBLED5" "LED1" "unknown" 1145.00mil 15.4230mm -237.35mil 1.3959mm 0
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[75.00mil 0.0000 45.00mil 30.00mil 47.00mil 30.00mil "1" "1" "square"]
-	Pin[25.00mil 0.0000 45.00mil 30.00mil 47.00mil 30.00mil "2" "2" "found"]
+	Pin[25.00mil 0.0000 45.00mil 30.00mil 47.00mil 30.00mil "2" "2" ""]
 	Pin[-25.00mil 0.0000 45.00mil 30.00mil 47.00mil 30.00mil "3" "3" ""]
 	Pin[-75.00mil 0.0000 45.00mil 30.00mil 47.00mil 30.00mil "4" "4" ""]
 	ElementArc [0.0000 0.0000 118.00mil 118.00mil 180 360 10.00mil]
@@ -937,9 +936,9 @@ Element["onsolder" "cr2032-p1" "B1" "unknown" 1595.00mil 1137.20mil 7.0000mm 3.0
 	Pad[-1.3000mm -11.4500mm 1.3000mm -11.4500mm 2.5000mm 14.00mil 2.5476mm "+" "1" "onsolder,square"]
 	Pad[0.0000 0.0000 0.0000 0.0000 8.9000mm 12.00mil 8.9484mm "-" "2" "onsolder"]
 	ElementLine [-7.3500mm -10.5500mm -3.0000mm -10.5500mm 15.00mil]
-	ElementLine [3.0000mm -10.5500mm 7.3500mm -10.5500mm 15.00mil]
+	ElementLine [3.0000mm -10.5500mm 4.3500mm -10.5500mm 15.00mil]
 	ElementLine [-7.3500mm 10.5500mm -3.0000mm 10.5500mm 15.00mil]
-	ElementLine [3.0000mm 10.5500mm 7.3500mm 10.5500mm 15.00mil]
+	ElementLine [3.0000mm 10.5500mm 4.3500mm 10.5500mm 15.00mil]
 	ElementArc [0.0000 0.0000 8.9000mm 8.9000mm 90 360 1.50mil]
 
 	)
@@ -1018,7 +1017,6 @@ Layer(6 "bottom" "copper")
 	Line[38.2217mm 17.4603mm 38.2217mm 687.28mil 25.00mil 30.00mil "clearline"]
 	Line[38.2217mm 687.28mil 38.2197mm 17.4550mm 25.00mil 30.00mil "clearline"]
 	Line[38.2197mm 17.4550mm 1495.00mil 17.4550mm 25.00mil 30.00mil "clearline"]
-	Line[1555.00mil 1597.20mil 1515.00mil 40.2951mm 25.00mil 30.00mil "clearline"]
 	Line[1305.00mil 1637.20mil 1305.00mil 1417.20mil 35.00mil 30.00mil "clearline"]
 	Line[1305.00mil 1417.20mil 1205.00mil 1317.20mil 35.00mil 30.00mil "clearline"]
 	Line[1025.00mil 1317.20mil 1205.00mil 1317.20mil 35.00mil 30.00mil "clearline"]
@@ -1032,8 +1030,6 @@ Layer(6 "bottom" "copper")
 	Line[1205.00mil 1637.20mil 1095.00mil 1527.20mil 22.00mil 12.00mil "clearline"]
 	Line[1095.00mil 1527.20mil 1095.00mil 1477.20mil 22.00mil 12.00mil "clearline"]
 	Line[27.5034mm 988.39mil 673.65mil 26.6957mm 45.00mil 30.00mil "clearline"]
-	Line[1515.00mil 1697.20mil 1555.00mil 1657.20mil 45.00mil 30.00mil "clearline"]
-	Line[1555.00mil 1657.20mil 1555.00mil 1587.20mil 45.00mil 30.00mil "clearline"]
 	Line[1220.00mil 15.4230mm 36.1877mm 15.4230mm 45.00mil 30.00mil "clearline"]
 	Line[36.1877mm 15.4230mm 38.2197mm 17.4550mm 45.00mil 30.00mil "clearline"]
 	Line[38.2197mm 17.4550mm 1565.00mil 17.4550mm 45.00mil 30.00mil "clearline"]
@@ -1053,6 +1049,8 @@ Layer(6 "bottom" "copper")
 	Line[15.7337mm 19.3398mm 565.00mil 20.7225mm 12.00mil 12.00mil "clearline"]
 	Line[565.00mil 20.7225mm 565.00mil 28.9690mm 12.00mil 12.00mil "clearline"]
 	Line[30.3713mm 29.2008mm 1565.00mil 19.8211mm 45.00mil 30.00mil "clearline"]
+	Line[1305.00mil 1937.20mil 1595.00mil 1647.20mil 45.00mil 30.00mil "clearline"]
+	Line[1595.00mil 1647.20mil 1595.00mil 40.3349mm 45.00mil 30.00mil "clearline"]
 	Polygon("clearpoly")
 	(
 		[29.2794mm 2200.00mil] [2.3010mm 28.9016mm] [275.00mil 28.9016mm] [275.00mil 31.9330mm] [315.00mil 32.9490mm] 
