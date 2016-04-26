@@ -9,7 +9,7 @@ Grid[10.00mil 25.00mil 0.9450mm 0]
 PolyArea[3100.006200]
 Thermal[0.500000]
 DRC[6.00mil 5.00mil 6.00mil 6.00mil 12.00mil 6.00mil]
-Flags("nameonpcb,clearnew,snappin")
+Flags("nameonpcb,snappin,showmask")
 Groups("1,c:2:3:4:5:6,s:7:8")
 Styles["Signal,12.00mil,24.02mil,12.01mil,6.00mil:Motor,25.00mil,52.00mil,28.00mil,15.00mil:Heat,45.00mil,51.97mil,27.56mil,15.00mil:Skinny,8.00mil,24.02mil,12.01mil,6.00mil"]
 
@@ -818,7 +818,7 @@ Element["onsolder" "snaptron_GX06240_SS" "S1" "unknown" 407.81mil 28.9572mm 5.00
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 0.0000 2.4500mm 0.0000 0.0000 0.0032mm "2" "2" "via"]
+	Pad[0.0000 0.0000 0.0000 0.0000 2.4500mm 12.00mil 8.6944mm "2" "2" "onsolder"]
 	Pad[0.3200mm 0.0000 2.7300mm 0.0000 0.6400mm 0.0000 0.0000 "2" "2" "onsolder,square,edge2"]
 	Pad[-2.5050mm -1.9600mm -2.5050mm 1.9600mm 1.0900mm 0.0000 0.0000 "3" "3" "onsolder,square"]
 	Pad[2.5050mm 1.9000mm 2.5050mm 1.9600mm 1.0900mm 0.0000 0.0000 "4" "4" "onsolder,square,edge2"]
@@ -1051,6 +1051,7 @@ Layer(6 "bottom" "copper")
 	Line[30.3713mm 29.2008mm 1565.00mil 19.8211mm 45.00mil 30.00mil "clearline"]
 	Line[1305.00mil 1937.20mil 1595.00mil 1647.20mil 45.00mil 30.00mil "clearline"]
 	Line[1595.00mil 1647.20mil 1595.00mil 40.3349mm 45.00mil 30.00mil "clearline"]
+	Line[7.8534mm 28.9572mm 245.00mil 28.9572mm 45.00mil 30.00mil ""]
 	Polygon("clearpoly")
 	(
 		[29.2794mm 2200.00mil] [2.3010mm 28.9016mm] [275.00mil 28.9016mm] [275.00mil 31.9330mm] [315.00mil 32.9490mm] 
