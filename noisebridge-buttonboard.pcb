@@ -819,7 +819,7 @@ Element["onsolder" "snaptron_GX06240_SS" "S1" "unknown" 407.81mil 28.9572mm 5.00
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.2500mm 0.6500mm 0.0000 0.0000 6.00mil 0.2050mm "plated_vent" "" "via"]
-	Pin[0.0000 0.0000 2.4500mm 0.0000 8.7432mm 0.0032mm "2" "2" "via"]
+	Pin[0.0000 0.0000 2.4500mm 0.0000 0.0000 0.0032mm "2" "2" "via"]
 	Pad[0.3200mm 0.0000 2.7300mm 0.0000 0.6400mm 0.0000 0.0000 "2" "2" "onsolder,square,edge2"]
 	Pad[-2.5050mm -1.9600mm -2.5050mm 1.9600mm 1.0900mm 0.0000 0.0000 "3" "3" "onsolder,square"]
 	Pad[2.5050mm 1.9000mm 2.5050mm 1.9600mm 1.0900mm 0.0000 0.0000 "4" "4" "onsolder,square,edge2"]
@@ -1076,10 +1076,6 @@ Layer(7 "outline" "outline")
 )
 Layer(8 "spare" "copper")
 (
-	Polygon("clearpoly")
-	(
-		[789.32mil 54.1726mm] [788.40mil 53.9905mm] [795.13mil 2124.80mil] [796.00mil 54.1518mm] 
-	)
 )
 Layer(9 "bottom silk" "silk")
 (
