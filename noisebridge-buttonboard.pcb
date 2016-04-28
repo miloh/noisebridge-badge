@@ -909,7 +909,7 @@ Element["" "BUTTERFLY CLUTCH PIN" "" "PIN" 1145.00mil 7.0410mm -3.0000mm -7.0000
 
 	)
 
-Element["" "RGBLED_EASYSOLDER" "D1" "unknown" 1145.00mil 15.4230mm -197.35mil -1.3981mm 0 100 ""]
+Element["" "RGBLED_EASYSOLDER" "D1" "unknown" 1145.00mil 15.4230mm 152.65mil -0.8901mm 0 100 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -931,7 +931,7 @@ Element["" "RGBLED_EASYSOLDER" "D1" "unknown" 1145.00mil 15.4230mm -197.35mil -1
 
 	)
 
-Element["" "CONNECTOR 3 2" "CONN1" "unknown" 19.3258mm 15.7477mm -5.1018mm -3.6267mm 3 100 ""]
+Element["" "CONNECTOR 3 2" "CONN1" "unknown" 19.3258mm 15.7477mm 5.0582mm -0.0707mm 3 100 ""]
 (
 	Attribute("device" "Atmel AVRISP Connector")
 	Attribute("manufacturer" "unknown")
