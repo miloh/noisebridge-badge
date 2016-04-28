@@ -55,23 +55,6 @@ T 57900 35300 5 10 0 0 0 0 1
 footprint=snaptron_GX06240_SS
 }
 N 59100 37000 59100 37800 4
-T 55800 32400 9 12 1 0 0 0 9
-1. replace LED1 with RGB LED     x
-2. wire up the parts in the schematic    x
-3. add switch footprint x
-4. add programming pins to edge of the board
-5. update the pcb layout
-6. get confirmation from others
-7. printouts  and check
-8. breadboard
-
-C 57400 38200 1 0 0 LED_RGB.sym
-{
-T 58900 39005 5 10 1 1 180 0 1
-refdes=LED1
-T 57400 39295 5 10 0 1 0 0 1
-footprint=RGBLED5
-}
 N 57200 37300 57600 37300 4
 N 57900 37700 57900 38200 4
 N 57600 37300 57600 38200 4
@@ -137,3 +120,10 @@ N 58200 37200 60000 37200 4
 N 57200 37700 58900 37700 4
 N 58900 37700 58900 38100 4
 N 58900 38100 60000 38100 4
+C 57400 38200 1 0 0 LED_RGB.sym
+{
+T 58200 39295 5 10 1 1 0 0 1
+refdes=D1
+T 57400 39295 5 10 0 1 0 0 1
+footprint=RGBLED_EASYSOLDER
+}
