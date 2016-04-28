@@ -787,7 +787,7 @@ Symbol['~' 12.00mil]
 )
 Attribute("PCB::grid::unit" "mil")
 Attribute("PCB::grid::size" "10.00mil")
-Via[365.00mil 27.3610mm 24.02mil 12.00mil 0.0000 12.01mil "" "hole"]
+Via[365.00mil 27.3610mm 24.02mil 12.00mil 30.00mil 0.7000mm "" "hole"]
 
 Element["onsolder" "snaptron_GX06240_SS" "S1" "unknown" 407.81mil 28.9572mm 5.0000mm -5.0000mm 0 100 "auto"]
 (
@@ -833,14 +833,14 @@ Element["" "DIP8" "U2" "unknown" 1305.00mil 1637.20mil -11.1759mm 0.7621mm 0 100
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 0.0000 80.00mil 30.00mil 82.00mil 28.00mil "PB5 (_Reset_)" "1" "octagon"]
-	Pin[-100.00mil 0.0000 80.00mil 30.00mil 82.00mil 28.00mil "(XTAL1) PB3" "2" ""]
-	Pin[-200.00mil 0.0000 80.00mil 30.00mil 82.00mil 28.00mil "(XTAL2) PB4" "3" ""]
-	Pin[-300.00mil 0.0000 80.00mil 30.00mil 82.00mil 28.00mil "4" "4" "thermal(0X,1X,5X,6X)"]
-	Pin[-300.00mil 300.00mil 80.00mil 30.00mil 82.00mil 28.00mil "(MOSI/AIN0) PB0" "5" ""]
-	Pin[-200.00mil 300.00mil 80.00mil 30.00mil 82.00mil 28.00mil "(MISO/INT0/AIN1) PB1" "6" ""]
-	Pin[-100.00mil 300.00mil 80.00mil 30.00mil 82.00mil 28.00mil "(SCK/T0) PB2" "7" ""]
-	Pin[0.0000 300.00mil 80.00mil 30.00mil 82.00mil 28.00mil "8" "8" ""]
+	Pin[0.0000 0.0000 80.00mil 30.00mil 82.00mil 0.7000mm "PB5 (_Reset_)" "1" "octagon"]
+	Pin[-100.00mil 0.0000 80.00mil 30.00mil 82.00mil 0.7000mm "(XTAL1) PB3" "2" ""]
+	Pin[-200.00mil 0.0000 80.00mil 30.00mil 82.00mil 0.7000mm "(XTAL2) PB4" "3" ""]
+	Pin[-300.00mil 0.0000 80.00mil 30.00mil 82.00mil 0.7000mm "4" "4" "thermal(0X,1X,5X,6X)"]
+	Pin[-300.00mil 300.00mil 80.00mil 30.00mil 82.00mil 0.7000mm "(MOSI/AIN0) PB0" "5" ""]
+	Pin[-200.00mil 300.00mil 80.00mil 30.00mil 82.00mil 0.7000mm "(MISO/INT0/AIN1) PB1" "6" ""]
+	Pin[-100.00mil 300.00mil 80.00mil 30.00mil 82.00mil 0.7000mm "(SCK/T0) PB2" "7" ""]
+	Pin[0.0000 300.00mil 80.00mil 30.00mil 82.00mil 0.7000mm "8" "8" ""]
 	ElementLine [-350.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
 	ElementLine [-350.00mil -50.00mil -350.00mil 350.00mil 10.00mil]
 	ElementLine [-350.00mil 350.00mil 50.00mil 350.00mil 10.00mil]
@@ -857,8 +857,8 @@ Element["" "0.125W_Carbon_Resistor" "R1" "unknown" 17.0704mm 34.3362mm -134.00mi
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 0.0000 70.00mil 22.00mil 72.00mil 28.00mil "1" "1" ""]
-	Pin[0.0000 -300.00mil 70.00mil 24.00mil 72.00mil 28.00mil "2" "2" ""]
+	Pin[0.0000 0.0000 70.00mil 22.00mil 72.00mil 0.7000mm "1" "1" ""]
+	Pin[0.0000 -300.00mil 70.00mil 24.00mil 72.00mil 0.7000mm "2" "2" ""]
 	ElementLine [0.0000 -90.00mil 0.0000 -50.00mil 10.00mil]
 	ElementLine [-40.00mil -90.00mil 40.00mil -90.00mil 10.00mil]
 	ElementLine [-40.00mil -210.00mil -40.00mil -90.00mil 10.00mil]
