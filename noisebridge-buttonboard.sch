@@ -85,7 +85,7 @@ C 57800 35400 1 0 0 MiniSpeaker.sym
 T 59300 37400 5 10 0 0 0 0 1
 device=SPEAKER
 T 58600 36500 5 10 1 1 0 0 1
-refdes=BA1
+refdes=PA1
 T 57800 35400 5 10 0 0 0 0 1
 footprint=KM13EPYH4000_v2_leads
 }

@@ -810,7 +810,7 @@ Element["onsolder" "snaptron_GX06240_SS" "S1" "unknown" 407.81mil 28.9572mm 5.00
 
 	)
 
-Element["" "KM13EPYH4000-A0" "BA1" "unknown" 1145.00mil 27.1070mm 3.2791mm 5.5473mm 0 100 ""]
+Element["" "KM13EPYH4000-A0" "PA1" "unknown" 1145.00mil 27.1070mm 3.2791mm 5.5473mm 0 100 ""]
 (
 	Attribute("device" "SPEAKER")
 	Attribute("manufacturer" "unknown")
