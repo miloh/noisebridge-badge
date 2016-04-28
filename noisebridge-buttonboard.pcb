@@ -909,7 +909,7 @@ Element["" "BUTTERFLY CLUTCH PIN" "" "PIN" 1145.00mil 7.0410mm -3.0000mm -7.0000
 
 	)
 
-Element["found" "RGBLED_EASYSOLDER" "D1" "unknown" 1145.00mil 15.4230mm -197.35mil -1.3981mm 0 100 ""]
+Element["" "RGBLED_EASYSOLDER" "D1" "unknown" 1145.00mil 15.4230mm -197.35mil -1.3981mm 0 100 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -1311,16 +1311,16 @@ NetList()
 	)
 	Net("unnamed_net7" "(unknown)")
 	(
-		Connect("BA1-2")
+		Connect("PA1-2")
 		Connect("R1-2")
 	)
 	Net("Vdd" "(unknown)")
 	(
 		Connect("B1-1")
-		Connect("BA1-1")
 		Connect("CONN1-2")
 		Connect("D1-2")
 		Connect("LED2-1")
+		Connect("PA1-1")
 		Connect("U2-8")
 	)
 )
