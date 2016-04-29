@@ -836,9 +836,9 @@ Element["" "DIP8" "U2" "unknown" 1305.00mil 1637.20mil -11.1759mm 0.7621mm 0 100
 	Pin[0.0000 0.0000 80.00mil 30.00mil 82.00mil 0.7000mm "PB5 (_Reset_)" "1" "octagon"]
 	Pin[-100.00mil 0.0000 80.00mil 30.00mil 82.00mil 0.7000mm "(XTAL1) PB3" "2" ""]
 	Pin[-200.00mil 0.0000 80.00mil 30.00mil 82.00mil 0.7000mm "(XTAL2) PB4" "3" ""]
-	Pin[-300.00mil 0.0000 80.00mil 30.00mil 82.00mil 0.7000mm "4" "4" "warn,thermal(0X,1X,5X,6X)"]
+	Pin[-300.00mil 0.0000 80.00mil 30.00mil 82.00mil 0.7000mm "4" "4" "thermal(0X,5X)"]
 	Pin[-300.00mil 300.00mil 80.00mil 30.00mil 82.00mil 0.7000mm "(MOSI/AIN0) PB0" "5" ""]
-	Pin[-200.00mil 300.00mil 80.00mil 30.00mil 82.00mil 0.7000mm "(MISO/INT0/AIN1) PB1" "6" "warn"]
+	Pin[-200.00mil 300.00mil 80.00mil 30.00mil 82.00mil 0.7000mm "(MISO/INT0/AIN1) PB1" "6" ""]
 	Pin[-100.00mil 300.00mil 80.00mil 30.00mil 82.00mil 0.7000mm "(SCK/T0) PB2" "7" ""]
 	Pin[0.0000 300.00mil 80.00mil 30.00mil 82.00mil 0.7000mm "8" "8" ""]
 	ElementLine [-350.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
@@ -850,7 +850,7 @@ Element["" "DIP8" "U2" "unknown" 1305.00mil 1637.20mil -11.1759mm 0.7621mm 0 100
 
 	)
 
-Element["" "0.125W_Carbon_Resistor" "R1" "unknown" 17.0704mm 34.3362mm -134.00mil -243.00mil 0 77 ""]
+Element["" "0.125W_Carbon_Resistor" "R1" "unknown" 16.3084mm 34.0822mm -134.00mil -243.00mil 0 77 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -918,12 +918,12 @@ Element["" "RGBLED_EASYSOLDER" "D1" "unknown" 1145.00mil 15.4230mm 152.65mil -0.
 	Attribute("vendor_part_number" "unknown")
 	Pin[1.9500mm 0.0000 1.1000mm 14.00mil 1.1984mm 0.7000mm "1" "1" ""]
 	Pin[0.6500mm 0.0000 1.1000mm 0.0000 1.1984mm 0.7000mm "2" "2" ""]
-	Pin[-0.6500mm 0.0000 1.1000mm 0.0000 1.1984mm 0.7000mm "3" "3" ""]
+	Pin[-0.6500mm 0.0000 1.1000mm 0.4572mm 1.1984mm 0.7000mm "3" "3" ""]
 	Pin[-1.9500mm 0.0000 1.1000mm 14.00mil 1.1984mm 0.7000mm "4" "4" ""]
-	Pad[1.9500mm -1.1000mm 1.9500mm 0.0500mm 1.1000mm 0.3000mm 1.2000mm "1" "1" "onsolder"]
-	Pad[0.6500mm -0.0500mm 0.6500mm 1.1000mm 1.1000mm 0.3000mm 1.2000mm "2" "2" "onsolder,edge2"]
-	Pad[-0.6500mm -1.1000mm -0.6500mm 0.0500mm 1.1000mm 0.3000mm 1.2000mm "3" "3" "onsolder"]
-	Pad[-1.9500mm -0.0500mm -1.9500mm 1.1000mm 1.1000mm 0.3000mm 1.2000mm "4" "4" "onsolder,edge2"]
+	Pad[1.9500mm -1.1000mm 1.9500mm 0.0500mm 1.1000mm 0.4016mm 1.2000mm "1" "1" "onsolder"]
+	Pad[0.6500mm -0.0500mm 0.6500mm 1.1000mm 1.1000mm 0.4016mm 1.2000mm "2" "2" "onsolder,edge2"]
+	Pad[-0.6500mm -1.1000mm -0.6500mm 0.0500mm 1.1000mm 0.4524mm 1.2000mm "3" "3" "onsolder"]
+	Pad[-1.9500mm -0.0500mm -1.9500mm 1.1000mm 1.1000mm 0.4016mm 1.2000mm "4" "4" "onsolder,edge2"]
 	ElementLine [2.8096mm -1.3101mm 2.8096mm 1.3101mm 6.00mil]
 	ElementLine [2.9910mm -1.3950mm 2.9910mm 1.3950mm 6.00mil]
 	ElementArc [0.0000 0.0000 3.1000mm 3.1000mm 205 310 6.00mil]
@@ -931,7 +931,7 @@ Element["" "RGBLED_EASYSOLDER" "D1" "unknown" 1145.00mil 15.4230mm 152.65mil -0.
 
 	)
 
-Element["" "CONNECTOR 3 2" "CONN1" "unknown" 19.3258mm 15.7477mm -5.6098mm -4.8967mm 3 77 ""]
+Element["" "CONNECTOR 3 2" "ISP" "unknown" 19.3258mm 15.7477mm 3.4072mm 2.3423mm 0 77 ""]
 (
 	Attribute("device" "Atmel AVRISP Connector")
 	Attribute("manufacturer" "unknown")
@@ -1050,10 +1050,10 @@ Layer(6 "bottom" "copper")
 	Line[10.3970mm 28.9690mm 21.5470mm 28.9690mm 35.00mil 30.00mil "clearline"]
 	Line[1205.00mil 1637.20mil 1095.00mil 1527.20mil 22.00mil 12.00mil "clearline"]
 	Line[1095.00mil 1527.20mil 1095.00mil 1477.20mil 22.00mil 12.00mil "clearline"]
-	Line[27.5034mm 988.39mil 673.65mil 26.6957mm 45.00mil 30.00mil "clearline"]
+	Line[27.5034mm 988.39mil 16.3084mm 26.4622mm 45.00mil 30.00mil "clearline"]
 	Line[1565.00mil 19.8211mm 1565.00mil 17.4550mm 45.00mil 30.00mil "clearline"]
-	Line[1105.00mil 1637.20mil 1105.00mil 1617.20mil 45.00mil 30.00mil "clearline"]
-	Line[21.3262mm 34.3362mm 17.0704mm 34.3362mm 45.00mil 30.00mil "clearline"]
+	Line[1105.00mil 1637.20mil 1105.00mil 1617.20mil 35.00mil 30.00mil "clearline"]
+	Line[21.3262mm 34.3362mm 16.3084mm 34.0822mm 35.00mil 30.00mil "clearline"]
 	Line[405.00mil 25.9640mm 405.00mil 24.5670mm 22.00mil 12.00mil ""]
 	Line[10.2871mm 1257.20mil 10.2871mm 1367.20mil 22.00mil 12.00mil ""]
 	Line[1595.00mil 1137.20mil 1595.00mil 1377.20mil 45.00mil 30.00mil ""]
@@ -1079,7 +1079,7 @@ Layer(6 "bottom" "copper")
 	Line[27.1330mm 16.6110mm 915.00mil 20.5030mm 14.00mil 24.00mil "clearline"]
 	Line[915.00mil 20.5030mm 20.4890mm 20.5030mm 14.00mil 24.00mil "clearline"]
 	Line[20.4890mm 20.5030mm 19.3258mm 19.3398mm 14.00mil 24.00mil "clearline"]
-	Line[1105.00mil 1617.20mil 21.3262mm 34.3362mm 45.00mil 30.00mil "clearline"]
+	Line[1105.00mil 1617.20mil 21.3262mm 34.3362mm 35.00mil 30.00mil "clearline"]
 	Polygon("clearpoly")
 	(
 		[29.2794mm 2200.00mil] [2.3010mm 28.9016mm] [275.00mil 28.9016mm] [275.00mil 31.9330mm] [315.00mil 32.9490mm] 
@@ -1815,7 +1815,7 @@ Layer(10 "top silk" "silk")
 		[586.95mil 36.0948mm] [588.36mil 36.0602mm] [590.43mil 36.0244mm] [15.0630mm 35.9873mm] [15.1470mm 35.9459mm] 
 		[599.05mil 35.9170mm] [601.17mil 35.9017mm] [602.80mil 35.8992mm] [604.10mil 35.9086mm] [15.3510mm 35.8248mm] 
 		[604.31mil 35.8233mm] [604.31mil 35.8205mm] [605.62mil 35.8055mm] [15.4170mm 35.7902mm] [609.58mil 35.7600mm] 
-		[608.60mil 35.7118mm] [15.3840mm 35.5710mm] [15.0960mm 1406.40mil] [582.94mil 35.8743mm] [571.60mil 36.0260mm] 
+		[608.60mil 35.7118mm] [15.3840mm 35.5710mm] [15.0960mm 1406.40mil] [575.00mil 35.9970mm] [571.60mil 36.0260mm] 
 		[560.21mil 1424.30mil] [561.24mil 1426.20mil] [562.21mil 1428.10mil] [563.24mil 1430.00mil] 
 	)
 	Polygon("clearpoly")
@@ -1925,14 +1925,14 @@ NetList()
 	Net("GND" "(unknown)")
 	(
 		Connect("B1-2")
-		Connect("CONN1-6")
+		Connect("ISP-6")
 		Connect("S1-3")
 		Connect("S1-4")
 		Connect("U2-4")
 	)
 	Net("unnamed_net1" "(unknown)")
 	(
-		Connect("CONN1-5")
+		Connect("ISP-5")
 		Connect("R2-2")
 		Connect("S1-1")
 		Connect("S1-2")
@@ -1950,20 +1950,20 @@ NetList()
 	)
 	Net("unnamed_net4" "(unknown)")
 	(
-		Connect("CONN1-3")
 		Connect("D1-1")
+		Connect("ISP-3")
 		Connect("U2-7")
 	)
 	Net("unnamed_net5" "(unknown)")
 	(
-		Connect("CONN1-1")
 		Connect("D1-3")
+		Connect("ISP-1")
 		Connect("U2-6")
 	)
 	Net("unnamed_net6" "(unknown)")
 	(
-		Connect("CONN1-4")
 		Connect("D1-4")
+		Connect("ISP-4")
 		Connect("U2-5")
 	)
 	Net("unnamed_net7" "(unknown)")
@@ -1974,9 +1974,9 @@ NetList()
 	Net("Vdd" "(unknown)")
 	(
 		Connect("B1-1")
-		Connect("CONN1-2")
 		Connect("D1-2")
 		Connect("D2-1")
+		Connect("ISP-2")
 		Connect("PA1-1")
 		Connect("R2-1")
 		Connect("U2-8")
